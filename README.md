@@ -2,6 +2,8 @@
 
 Analysis of **300,153 flight bookings** from EaseMyTrip, covering India's six largest metro cities, to find what drives ticket prices. The project ends with a linear regression model that predicts price. The full analysis was built twice, in **Python** and in **SAS**, and closes with a critical comparison of the two tools.
 
+**Business impact:** shows travellers and pricing teams what moves fares. Economy tickets booked 1 day out cost about 3 times those booked 3+ weeks ahead, Business fares average about 8 times Economy, and a simple model explains 90% of price variance (test R² = 0.90).
+
 **Tools:** Python (pandas, seaborn, scikit-learn) · SAS (PROC SGPLOT, SGPANEL, SGPIE, REG) · Jupyter
 
 ---
@@ -95,3 +97,7 @@ To run the SAS version, upload the CSV to SAS Studio and set `%let path` at the 
 ---
 
 *Built as part of my MSc Big Data Analytics (Business Analytics module), University of Derby, 2024.*
+
+---
+
+More of my work: [github.com/JerryD19](https://github.com/JerryD19)
